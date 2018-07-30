@@ -12,15 +12,11 @@ class App extends Component {
     }
   }
 
-submitAddListButton = () => {
-  console.log('click');
-}
-
   render() {
     return (
       <div className="App">
         <Navigation />
-        <ProjectTable submitAddListButton={this.submitAddListButton} />
+        <ProjectTable />
         <ProjectsList />
         {/*<Footer />
         <Register />
